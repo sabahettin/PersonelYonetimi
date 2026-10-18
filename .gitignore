@@ -1,0 +1,20 @@
+# .NET derleme çıktıları
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+
+# Yerel ayarlar (veritabanı şifresi burada)
+backend/Presentation/Api/appsettings.Development.json
+
+# Solution'a dahil olmayan artık projeler
+backend/Application/
+backend/Core/Persistance/
+
+# Node (frontend/.gitignore ayrıca tanımlar)
+node_modules/
+dist/
